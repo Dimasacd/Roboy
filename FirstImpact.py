@@ -13,5 +13,22 @@ name = input('Your Name:')
 print('Hello {}!'.format(name))
 print("{} You know my skills? I very good in calculation".format(name))
 
+print("{} Let me calculate it for you".format(name))
+
+n1 = input ('First number:')
+n2 = input ('Second number:')
+c = (n1+n2)
+
+print ('The result is',c)
+
+print ('err... ops, try again, i can')
+
+b1 = int (input ('First number:'))
+b2 = int (input ('Second number:'))
+b = (b1+b2)
+
+print ('The result is',b)
+
+
 
 
